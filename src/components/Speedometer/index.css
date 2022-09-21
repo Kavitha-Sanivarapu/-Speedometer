@@ -1,0 +1,49 @@
+/* Write your CSS here */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #07080c;
+  height: 100vh;
+  font-family: 'Roboto';
+}
+
+.heading {
+  color: #ffffff;
+  font-size: 30px;
+  /* font-weight: bold; */
+}
+
+.image {
+  height: 200px;
+}
+
+.sub-heading {
+  color: #ffffff;
+}
+
+.p {
+  color: #cbd5e1;
+  font-size: 10px;
+  margin-bottom: 40px;
+}
+
+.button {
+  padding: 8px;
+  border-radius: 7px;
+  font-size: 10px;
+  cursor: pointer;
+  outline: none;
+}
+.button-1 {
+  background-color: #0b69ff;
+  margin-right: 13px;
+  color: #ffffff;
+}
+
+.button-2 {
+  border-color: #94a3b8;
+  background-color: transparent;
+  color: #cbd5e1;
+}
